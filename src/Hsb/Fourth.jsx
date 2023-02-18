@@ -27,7 +27,7 @@ spacing={1}
 >
 
 <div>
-<Card sx={{ minWidth:{sm:'350px',xs:'350px',md:'350px', lg:'350px', xl:'250'} , marginBottom:{sm:'35px',xs:'35px',md:'35px', lg:'0px'} ,minHeight:150 , boxShadow:'1px 1px  6px grey'}} variant={'outlined'}>
+<Card sx={{ minWidth:{sm:'270px',xs:'250px',md:'350px', lg:'350px', xl:'250'} , marginBottom:{sm:'35px',xs:'35px',md:'35px', lg:'0px'} ,minHeight:150 , boxShadow:'1px 1px  6px grey'}} variant={'outlined'}>
   <CardContent>
 
  <Button><HandshakeIcon sx={{fontSize:'75px',color:'#37517e'}}/></Button><br/>
@@ -59,7 +59,7 @@ spacing={1}
 >
 
 <div>
-<Card sx={{ minWidth:{sm:'350px',xs:'350px',md:'350px', lg:'350px', xl:'250'},marginBottom:{sm:'35px',xs:'35px',md:'35px', lg:'0px'} , minHeight:150 , boxShadow:'1px 1px  6px grey'}} variant={'outlined'}>
+<Card sx={{ minWidth:{sm:'270px',xs:'250px',md:'350px', lg:'350px', xl:'250'},marginBottom:{sm:'35px',xs:'35px',md:'35px', lg:'0px'} , minHeight:150 , boxShadow:'1px 1px  6px grey'}} variant={'outlined'}>
   <CardContent>
 
  <Button><ThumbUpAltIcon sx={{fontSize:'75px',color:'#37517e'}}/></Button><br/>
@@ -93,7 +93,7 @@ alignItems="center"
 spacing={1}
 >
 <div>
-<Card sx={{ minWidth:{sm:'350px',xs:'350px',md:'350px', lg:'350px', xl:'250'} , marginBottom:{sm:'35px',xs:'35px',md:'35px', lg:'35px'} , minHeight:150 , boxShadow:'1px 1px  6px grey'}} variant={'outlined'}>
+<Card sx={{ minWidth:{sm:'270px',xs:'250px',md:'350px', lg:'350px', xl:'250'} , marginBottom:{sm:'35px',xs:'35px',md:'35px', lg:'0px'} , minHeight:150 , boxShadow:'1px 1px  6px grey'}} variant={'outlined'}>
   <CardContent>
 
  <Button><BookmarkAddedIcon sx={{fontSize:'75px',color:'#37517e'}}/></Button><br/>
@@ -125,7 +125,7 @@ spacing={1}
 >
 
 <div>
-<Card sx={{minWidth:{sm:'350px',xs:'350px',md:'350px', lg:'350px', xl:'250'} , marginBottom:{sm:'35px',xs:'35px',md:'35px', lg:'0px'} , minHeight:150 , boxShadow:'1px 1px  6px grey'}} variant={'outlined'}>
+<Card sx={{minWidth:{sm:'270px',xs:'250px',md:'350px', lg:'350px', xl:'250'} , marginBottom:{sm:'35px',xs:'35px',md:'35px', lg:'0px'} , minHeight:150 , boxShadow:'1px 1px  6px grey'}} variant={'outlined'}>
   <CardContent>
 
  <Button><RotateLeftIcon sx={{fontSize:'75px' ,color:'#37517e'}}/></Button><br/>

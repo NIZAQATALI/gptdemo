@@ -6,24 +6,19 @@ import React from 'react'
 export default function Firsta() {
   return (
     <div>
-<Grid Container>
-    <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
-<Box sx={{backgroundColor:'red',  width: 300,
-    height: 300, textAlign:'center'}}>
+<Grid container>
+    <Grid item  xs={12}sm={12} md={12} lg={6} xl={6} sx={{backgroundColor:'red'}} >
+    <div style={{ display:'block',alignContent:'center', justifyContent:'center' , direction:'column'}}>
+ <Typography display={'block'}> 
+<b> Employee Benefits Staring at Just $29.5995/month</b></Typography>
+<Box><Button>12</Button></Box>
 
-</Box>
-
+    </div>
+    
     </Grid>
-    <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
-    <Box sx={{backgroundColor:'blue',  width: 300,
-    height: 300, textAlign:'center'}}>
-
-</Box>
-
-    </Grid>
+    <Grid item xs={12}sm={12} md={12} lg={6} xl={6}  sx={{backgroundColor:'green'}} >2</Grid>
+   
 </Grid>
-
-       
     </div>
   )
 }

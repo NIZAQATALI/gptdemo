@@ -30,16 +30,16 @@ export default function Main() {
           width:'100%'  ,
           height:{lg:'650px',md:'500px',xs:'auto', xl:'650px'}, 
           padding:{md:'30px 30px',sm:'30px 30px',xs:'30px 50px', xl:'30px 30px'}, 
-          marginBottom:'50px'
+          marginBottom:'0px'
           }}>
             <Grid item md={12} lg={6} sm={12} xs={12}   sx={{
-              display:'flex',  
+              display:'block',  
               direction:"column", 
               alignItems: "Center",
               justifyContent:'Center',
-               padding:'200px 60px 50px', 
+               padding:{xs:'50px 0px 50px',sm:'0px 0px 0px',md:'200px 60px 50px',lg:'200px 60px 50px',xl:'200px 60px 50px'}, 
                position:'relative', 
-               left:50, 
+               left:0, 
                right:0 
                }}>
             <Typography
@@ -48,29 +48,34 @@ export default function Main() {
               position={'relative'}
               sx={{ 
                  color:'#212b54',  
-                  padding:'200px 60px 60x 0x', 
-                  fontSize:{sm:'35px',xs:'35px',md:'50px', lg:'50px', xl:'50px'} 
+                  padding:{xs:'100px 60px 60x 0x',sm:'200px 60px 60x 0x',lg:'200px 60px 60x 0x',xl:'200px 60px 60x 0x'}, 
+                  fontSize:{sm:'20px',xs:'20px',md:'50px', lg:'50px', xl:'50px'} 
                 }}
             >
               <Box position={'relative'} sx={{
-                right:{xs:'40px', sm:'40'
-                }}} alignContent={'center'}> <b> Employee Benefits Staring at Just $29.5995/month</b></Box> 
-               <Stack  direction="row"
+                right:{xs:'0px', sm:'40'
+                },
+                fontSize:{xs:'32px',sm:'32px',md:'52x',lg:'52px',xl:'52px'},
+                
+                
+ textAlign:'center'
+                }} alignContent={'center'}> <b> Employee Benefits Staring at Just $29.5995/month</b></Box> 
+              
+            </Typography>
+            <Stack  direction="row"
                position={'relative'}
             
-            sx={{textAlign:'center',top:{sm:'20',xs:'20px',md:'20px', lg:'50px',xl:'50px'},right:{sm:'45px',xs:'45px',md:'120px', lg:'120px'}}}
+            sx={{textAlign:'center',top:{sm:'20',xs:'20px',md:'20px', lg:'50px',xl:'50px'},right:{sm:'45px',xs:'0px',md:'120px', lg:'60px'}}}
   justifyContent="center"
   alignItems="center"
-  spacing={1} >
+  spacing={0.5} >
     <Button   sx={ {borderRadius:'50px', backgroundColor:'#212b54', padding:'10px 30px', color:'white','&:hover': {
     backgroundColor: '#212b54', 
-  },fontSize:{sm:'12px',xs:'12px',md:'15px', lg:'15px'},  }} onClick={handleClickOpen}><b>Get Started</b></Button>
-    <Button  sx={ {borderRadius:'50px', backgroundColor:'#212b54',padding:'10px 30px', color:'white','&:hover': {
+  },  lineHeight:{sm:'10px',xs:'10px',md:'30px', lg:'30px'},fontSize:{sm:'11px',xs:'11px',md:'15px', lg:'15px'}, fontWeight:'bold',letterSpacing:'inline' }} onClick={handleClickOpen}>Get Started</Button>
+    <Button size= "large" sx={ {borderRadius:'50px',fontSize:{sm:'11px',xs:'11px',md:'15px', lg:'15px'}, fontWeight:'bold' ,lineHeight:{sm:'10px',xs:'10px',md:'30px', lg:'30px'},  backgroundColor:'#212b54',padding:'10px 30px', color:'white','&:hover': {
     backgroundColor: '#212b54'
-  }}}  onClick={handleClickOpen}><b> Get Quote</b></Button>
-</Stack>   
-            </Typography>
-            
+  },letterSpacing:'inline'}}  onClick={handleClickOpen}>Get Quote</Button>
+</Stack>  
             </Grid>
              <Grid item sx={{ textAlign:'Center',  display: { xs: 'none', sm: 'none',md:'none', lg:'block',xl:'block' }}}sm={12} xs={12} md={6} lg={6} >
 <img src={img} style={{width:'100%',height:'auto',  verticalAlign:'middle' }} />

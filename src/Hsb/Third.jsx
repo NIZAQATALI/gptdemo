@@ -7,7 +7,7 @@ import CardContent from '@mui/material/CardContent';
 import React from 'react'
 export default function Third() {
   return (
-    <div><Box position={'relative'} top={50} sx={{marginBottom:{sm:'630px',xs:'630px',md:'630px', lg:'0px'}}}>
+    <div><Box position={'relative'} top={50} sx={{marginBottom:{sm:'660px',xs:'660px',md:'630px', lg:'0px'}}}>
         <Typography variant='h5' sx={{textAlign:'center',color:'#37517e',marginBottom:{sm:5,xs:5,md:0,lg:0 } }}><b>TOP BENEFIT BUNDLES</b></Typography>
     <Grid container  sx={{width:'100%', height:'500px' ,backgroundColor:'white', color:'white', padding:'0px 150px'}} Spacing={1}>
        
@@ -19,9 +19,9 @@ justifyContent="center"
 alignItems="center"
 spacing={1}
 >
-<Box  sx={{backgroundColor:'white' ,padding:'15px' , borderRadius:'10px', border:' 1px solid grey'}}>
+<Box  sx={{backgroundColor:'white' ,padding:'15px' ,marginBottom:'15px', borderRadius:'10px', border:' 1px solid grey'}}>
 <div>
-<Card sx={{ minWidth:{sm:345,xs:295,md:395,lg:245,xl:295}  , minHeight:350 , backgroundColor:'#e0eaff','&:hover': {
+<Card sx={{ minWidth:{sm:345,xs:255,md:395,lg:245,xl:295}  , minHeight:350 , backgroundColor:'#e0eaff','&:hover': {
     backgroundColor: '#6c757d'
   }}}>
       <CardContent>
@@ -58,9 +58,9 @@ justifyContent="center"
 alignItems="center"
 spacing={1}
 >
-<Box  sx={{backgroundColor:'white' ,padding:'15px' , borderRadius:'10px', border:' 1px solid gray'}}>
+<Box  sx={{backgroundColor:'white' ,padding:'15px' ,  marginBottom:'15px',borderRadius:'10px', border:' 1px solid gray'}}>
 <div>
-<Card sx={{ minWidth:{sm:345,xs:295,md:395,lg:245,xl:295}  , minHeight:350 ,backgroundColor:'#e0eaff','&:hover': {
+<Card sx={{ minWidth:{sm:345,xs:255,md:395,lg:245,xl:295}  , minHeight:350 ,backgroundColor:'#e0eaff','&:hover': {
     backgroundColor: '#6c757d'
   }}}>
       <CardContent>
@@ -98,9 +98,9 @@ justifyContent="center"
 alignItems="center"
 spacing={1}
 >
-<Box  sx={{backgroundColor:'white' ,padding:'15px' , borderRadius:'10px', border:' 1px solid gray'}}>
+<Box  sx={{backgroundColor:'white' ,padding:'15px' ,marginBottom:'15px',borderRadius:'10px', border:' 1px solid gray'}}>
 <div>
-<Card sx={{ minWidth:{sm:345,xs:295,md:395,lg:245,xl:295}  , minHeight:350, backgroundColor:'#e0eaff', '&:hover': {
+<Card sx={{ minWidth:{sm:345,xs:255,md:395,lg:245,xl:295}  , minHeight:350, backgroundColor:'#e0eaff', '&:hover': {
     backgroundColor: '#6c757d'
   },}}>
       <CardContent>
