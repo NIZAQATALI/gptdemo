@@ -7,7 +7,7 @@ export default function Second() {
   return (
     <div>
         <Box>
-            <Grid container  sx={{width:'100%', height:{md:'auto',lg:'200px',sm:'auto',xs:'auto'} ,backgroundColor:'#17a2b8', color:'white', fontSize:'25px'}}>
+            <Grid container  sx={{ py:2,width:'100%', height:{md:'auto',lg:'200px',sm:'auto',xs:'auto'} ,backgroundColor:'#17a2b8', color:'white', fontSize:'25px'}}>
                 <Grid item  md={12} lg={4} sm={12}xs ={12} sx={{display:'flex' , justifyContent:'center'}}>
 <Stack   
   direction="column"
